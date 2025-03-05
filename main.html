@@ -13,42 +13,40 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">YourBrand</a>
+    
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#test">Testimonials</a>
+                    </li>
+                    <li? class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li?
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
+    
     <header class="bg-primary text-white text-center py-5">
         <div class="container">
             <h1 class="display-4">Welcome to VinSoft Solutions</h1>
@@ -90,7 +88,7 @@
                 <div class="col-md-4">
                     <div class="card border-0 shadow-sm p-4">
                         <div class="text-primary display-4">
-                            <i class="bi bi-brain"></i>
+                            <i class="bi bi-translate"></i>
                         </div>
                         <h5 class="card-title mt-3">AI Solutions</h5>
                         <p class="card-text">Harnessing artificial intelligence to build smart, automated, and data-driven applications.</p>
@@ -295,6 +293,113 @@
             </div>
         </div>
     </section>
+
+    <!-- FAQs -->
+    <section id="faq" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <p class="text-muted">Find answers to common questions about our services.</p>
+            </div>
+    
+            <div class="accordion" id="faqAccordion">
+                <!-- Question 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            What services do you offer?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We offer web development, mobile app development, database management, and AI solutions.
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Question 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            How long does it take to complete a project?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Project timelines vary depending on complexity, but most websites take 2-6 weeks, and mobile apps take 4-12 weeks.
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Question 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Do you provide support after project completion?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes! We offer ongoing support and maintenance to ensure your website or app runs smoothly.
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Question 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            How do I get started with your services?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Simply contact us through our website, and we’ll schedule a free consultation to discuss your needs.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <!-- About Us -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold">About Us</h5>
+                    <p>We provide top-tier web, mobile, and AI solutions to help businesses grow and innovate.</p>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Services</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Follow Us</h5>
+                    <a href="#" class="text-light me-2"><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-twitter fs-4"></i></a>
+                    <a href="#" class="text-light me-2"><i class="bi bi-linkedin fs-4"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-instagram fs-4"></i></a>
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2025 YourCompany. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    
     
     
     
