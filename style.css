@@ -10,4 +10,6 @@
 .contact-info, .contact-form {
     border-radius: 10px;
 }
-
+#about{
+    background: black;
+}
