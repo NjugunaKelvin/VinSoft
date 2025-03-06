@@ -16,4 +16,9 @@
 #services{
     background: black;
 }
-
+::placeholder{
+    color: rgb(147, 231, 11);
+}
+.form-control{
+    border-color: rgb(4, 4, 94);
+}
