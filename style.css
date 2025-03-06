@@ -22,3 +22,15 @@
 .form-control{
     border-color: rgb(4, 4, 94);
 }
+ /* Change arrow color when collapsed (default state) */
+ .accordion-button::after {
+    filter: invert(1); /* Makes the arrow white */
+  }
+
+  /* Change arrow color when expanded */
+  .accordion-button:not(.collapsed)::after {
+    filter: invert(1); /* Ensures the arrow stays white */
+  }
+  .tag:hover{
+    color: rgb(20, 241, 49);
+  }
