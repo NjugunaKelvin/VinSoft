@@ -34,4 +34,4 @@ VinSoft Technologies is a forward-thinking tech company specializing in **Web De
 ## <span style="color:#1E3A8A;">📜 License</span>
 © 2025 **VinSoft Technologies**. All Rights Reserved.
 
-🔗 **Stay Connected:** 
+🔗 **Stay Connected.** 
